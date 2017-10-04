@@ -1,0 +1,55 @@
+/* пункты для выпадающего меню*/
+
+.menu {
+    font-size: 14px;
+    display: inline-block;
+    position: relative;
+    background-image: url(../img/panel.jpg);
+    
+}
+    
+.menu > li {
+    	
+        display:inline-block;
+        height:25px;
+        position:relative;
+        padding: 2px 69px 3px 8px;
+        box-shadow: 1px 1px 1px #3d3c3c;
+                 
+}
+.submenu {
+	display: none;
+    line-height: 24px;
+    
+}
+ul li a { 
+    text-decoration: none;
+    color: white;
+    position: relative;
+    
+    top: 5px;
+    left: 30px;
+    border-right: 0px;
+        
+}
+
+.menu > li:hover .submenu {
+    display: inline-block;
+    background-image: url(../img/panel_2.png);
+    box-shadow: 2px 5px 3px #3d3c3c;
+    color: white;
+    padding: 14px 45px 14px 9px;
+    width: 150px;
+    height: 125px;
+    position: absolute;
+    top: 31px;
+    z-index: 1;
+    
+}
+.menu ul li a {
+	text-decoration: none;
+    color: white;
+    width: 150px;
+    height: 125px;
+    
+}
